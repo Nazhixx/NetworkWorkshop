@@ -19,7 +19,7 @@ int main() {
             print_new();
         }else{
             char message[1000];
-            scanf("%[^\n]s", message);
+            scanf("%*c%[^\n]s", message);
             char* feedback = send_data(message);
             printf("%s\n", feedback);
         }
