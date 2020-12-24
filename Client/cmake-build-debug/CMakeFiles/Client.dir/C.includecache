@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/badim/CLionProjects/Client/main.c
+C:/Users/pouya/Desktop/NetworkWorkshop/Client/main.c
 stdio.h
 -
 winsock2.h

@@ -6,15 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/badim/CLionProjects/Server/main.c
+C:/Users/pouya/Desktop/NetworkWorkshop/Server/main.c
 stdio.h
 -
+string.h
+-
+stdlib.h
+-
 winsock2.h
--
-sys/types.h
--
-sys/socket.h
--
-netinet/in.h
 -
 
