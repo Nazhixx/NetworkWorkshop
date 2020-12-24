@@ -72,6 +72,7 @@ void start(int server_socket) {
             if (index < size) {
                 response = messages[index];
             } else {
+                response = malloc(15);
                 sprintf(response, ":%d", size);
             }
         } else {
@@ -79,7 +80,7 @@ void start(int server_socket) {
             strcpy(messages[size], buffer);
             size++;
 
-            response = "Message Recieved";
+            response = "Message Received";
         }
         send(client_socket, response, strlen(response), 0);
         printf("Server response: %s\n\n", response);
